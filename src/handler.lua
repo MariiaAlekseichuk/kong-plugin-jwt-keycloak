@@ -18,7 +18,7 @@ local priority
 if os.getenv(priority_env_var) then
     priority = tonumber(os.getenv(priority_env_var))
 else
-    priority = 1005
+    priority = 905
 end
 kong.log.debug('JWT_KEYCLOAK_PRIORITY: ' .. priority)
 
